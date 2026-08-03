@@ -84,10 +84,9 @@ function AppContent() {
 export default function App() {
   return (
     <HelmetProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Fathi.Portfolio/">
         <AppContent />
       </BrowserRouter>
     </HelmetProvider>
   );
 }
-
